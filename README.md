@@ -31,7 +31,6 @@ dynamic-datasource-spring-boot基于spring boot采用注解的方式自动切换
 ## 3.注解使用
 
 
-## 示例代码
-&emsp;如何使用dynamic-datasource-spring-boot可参考：https://github.com/tswine/sample/tree/master/spring-boot-sample/sample-dynamic-datasource-spring-boot
+&emsp;如何使用dynamic-datasource-spring-boot可参考示例代码：https://github.com/tswine/sample/tree/master/spring-boot-sample/sample-dynamic-datasource-spring-boot
 
 
