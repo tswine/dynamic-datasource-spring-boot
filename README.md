@@ -7,6 +7,15 @@
     <a>
         <img src="https://img.shields.io/badge/release-v1.0.0-blue.svg">
     </a>
+    <a>
+        <img src="https://img.shields.io/badge/JDK-1.8%2B-blue.svg">
+    </a>
+    <a >
+        <img src="https://img.shields.io/badge/SpringBoot-2.0%2B-blue.svg">
+    </a>
+    <a href="https://github.com/alibaba/druid">
+        <img src="https://img.shields.io/badge/druid-1.1.18-blue.svg">
+    </a>
 </p>
 
 #### [Github](https://github.com/tswine/dynamic-datasource-spring-boot)
