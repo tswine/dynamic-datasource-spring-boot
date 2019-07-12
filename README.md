@@ -17,3 +17,21 @@ dynamic-datasource-spring-boot基于spring boot采用注解的方式自动切换
 - hava fun
 
 # 使用
+## 1. maven配置
+```
+  <dependency>
+    <groupId>cn.tswine.springboot</groupId>
+    <artifactId>dynamic-datasource-spring-boot</artifactId>
+    <version>${version}</version>
+  </dependency>
+```
+
+## 2.数据库配置
+
+## 3.注解使用
+
+
+## 示例代码
+&emsp;如何使用dynamic-datasource-spring-boot可参考：https://github.com/tswine/sample/tree/master/spring-boot-sample/sample-dynamic-datasource-spring-boot
+
+
