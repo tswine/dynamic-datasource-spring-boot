@@ -110,8 +110,10 @@ dynamic-datasource-spring-boot基于spring boot采用注解的方式自动切换
 ## 3.注解使用
 - @Dynamic(value="配置的数据源名")
 - 注解需在service的实现类标记
-- 注解在类上则代表该类的所有参数都使用注解的数据源
-- 注解在方法上则代表该方法使用注解的数据源，注解在方法的优先级大于类的注解
+- 注解在类上则代表该类的所有方法都使用注解的数据源
+- 注解在方法上则代表只有该方法使用注解的数据源
+- 注解在方法的优先级大于类的注解，类和方法同时使用注解不同的数据源，则数据库操作会优先采用方法注解的数据源
+- 方法注解数据源 》类注解数据源 》 未使用注解默认数据源
 - 未使用任何的注解，则采用默认的数据源
 
 &emsp;如何使用dynamic-datasource-spring-boot可参考示例代码：https://github.com/tswine/sample/tree/master/spring-boot-sample/sample-dynamic-datasource-spring-boot
