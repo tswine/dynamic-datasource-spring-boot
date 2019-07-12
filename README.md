@@ -4,6 +4,9 @@
     <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">
         <img src="http://img.shields.io/:license-apache-brightgreen.svg" >
     </a>
+    <a>
+        <img src="https://img.shields.io/badge/release-v1.0.0-blue.svg">
+    </a>
 </p>
 
 #### [Github](https://github.com/tswine/dynamic-datasource-spring-boot)
